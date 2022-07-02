@@ -156,3 +156,38 @@ body{
     align-self: flex-end;
     font-weight: bold;
 }
+
+.footer{
+    flex: 1;
+    display: flex;
+    justify-content: space-between;
+    background-color: #3882F6;
+    margin: 100px;
+    padding: 50px 100px;
+    border-radius: 20px;
+}
+
+.footer .title{
+    font-size: 30px;
+    color: #F9FAF8;
+    font-weight: bolder;
+}
+
+.footer .text{
+    font-size: 14px;
+    color: #F9FAF8;
+}
+
+.footer .button{
+    display: flex;
+    border: solid 3px;
+    background-color: #3882F6;
+    height: 30px;
+    width: 100px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    color: #E5E7EB;
+    border-color:#E5E7EB;;
+    font-weight: bold;
+}
