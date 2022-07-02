@@ -1,0 +1,153 @@
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.top-section{
+    background-color: #1F2937;
+    padding-top: 15px;
+    padding-left: 80px;
+    padding-right: 80px;
+    padding-bottom: 80px;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-logo{
+    font-size: 24px;
+    color: #F9FAF8;
+    font-weight: bolder;
+}
+
+.header-links ul{
+    display: flex;
+    list-style-type: none;
+    gap: 12px;
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.content{
+    display: flex;
+    margin-top: 80px;
+    gap: 40px;
+}
+
+.content .left{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.content .left .title{
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: bolder;
+}
+
+
+
+.content .left .text{
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.content .left .button{
+    display: flex;
+    background-color: #3882F6;
+    height: 30px;
+    width: 100px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    color: #E5E7EB;
+    font-weight: bold;
+}
+
+.content .right{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #696969;
+    height: 200px;
+    width: 400px;
+    color: #E5E7EB;
+}
+
+.box-container{
+    display: flex;
+    background-color: blue;
+    width: 500px;
+    gap: 20px;
+}
+
+.second-section{
+    width: 1400px;
+    padding-top: 60px;
+    padding-bottom: 80px;
+}
+
+.second-section .title{
+    padding-bottom: 30px;
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+    text-align: center;
+
+}
+
+.cards-container{
+    display:flex;
+    justify-content: center;
+    gap: 80px;
+}
+
+.card{
+  
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    width: 130px;
+    
+}
+
+.card-picture{
+    border:#3882F6 solid;
+    border-radius: 14px;
+    height: 120px;
+    width: 120px;
+}
+
+.card-text{
+    text-align: center;
+    
+}
+
+.third-section{
+    display:flex;
+    flex-direction: column;
+    width: 1000px;
+    background-color: #E5E7EB;
+    padding: 100px;
+  
+}
+
+.main-text{
+    font-size: 36px;
+    color: #1F2937;
+    font-style: italic;
+    align-self: center;
+}
+.signature-text{
+    align-self: flex-end;
+    font-weight: bold;
+}
